@@ -8,23 +8,28 @@
     <style>
         #content {
             display: flex;
-            width: 100vw;
+            /*width: 100vw;*/
             flex-grow: 1;
             flex-direction: column;
             align-items: center;
             place-content: center;
-            min-height: 80vh;
+            /*min-height: 80vh;*/
+            margin-top: 60%;
+            margin-bottom: auto;
+            font-size: 30px;
         }
 
         .btn-class {
-            width: 100px;
-            padding: 10px;
-            border-radius: 10px;
+            height: 100px;
+            width: 200px;
+            padding: 20px;
+            border-radius: 20px;
             border: 1px solid white;
             margin-left: 70px;
             margin-right: 70px;
             cursor: pointer;
             font-weight: bold;
+            font-size: 40px;
         }
 
         .yes-btn-class {
@@ -51,7 +56,7 @@
 
         #err_msg {
             color: red;
-            font-size: 20px;
+            font-size: 40px;
             opacity: 0;
             position: absolute;
         }
@@ -104,14 +109,14 @@
                 $("#err_msg").html("Click faster?");
                 $("#alt_no_btn").css({
                     "top": "10%",
-                    "left": "80%",
+                    "left": "70%",
                 });
             }
             if (no_count === 6) {
                 $("#err_msg").html("So close!");
                 $("#alt_no_btn").css({
                     "top": "80%",
-                    "left": "0%",
+                    "left": "10%",
                 });
             }
             if (no_count === 7) {
@@ -122,7 +127,7 @@
             if (no_count === 8) {
                 $("#err_msg").html("You sure? No regrets?");
                 $("#no_btn").css({
-                    "width": "80px",
+                    "width": "180px",
                     "margin-left": "80px",
                     "margin-right": "80px",
                 });
@@ -130,7 +135,7 @@
             if (no_count === 9) {
                 $("#err_msg").html("Really ah?? Let you reconsider.");
                 $("#no_btn").css({
-                    "width": "60px",
+                    "width": "160px",
                     "margin-left": "90px",
                     "margin-right": "90px",
                 });
@@ -138,7 +143,7 @@
             if (no_count === 10) {
                 $("#err_msg").html("Final chance ah. No more next time!");
                 $("#no_btn").css({
-                    "width": "40px",
+                    "width": "140px",
                     "margin-left": "100px",
                     "margin-right": "100px",
                 });
