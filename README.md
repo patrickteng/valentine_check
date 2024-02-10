@@ -1,1 +1,1 @@
-Access the page at <a href="https://patrickteng.github.io/">here</a>.
+Access the page <a target="_blank" href="https://patrickteng.github.io/">here</a>.
